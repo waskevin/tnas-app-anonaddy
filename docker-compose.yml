@@ -1,0 +1,6 @@
+services:
+  anonaddy:
+    image: anonaddy/anonaddy:1.7.4
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
